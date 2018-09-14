@@ -32,7 +32,7 @@ public class App {
 
     private static List<String> extractClientDirectories(String pattern, List<String> clientDirectories) {
         return clientDirectories.stream()
-                //app
+                //showcase
                 .filter( s -> !s.contains("webapp"))
                 .filter( s -> !s.contains("dashbuilder"))
                 .filter( s -> !s.contains("backend"))
@@ -42,7 +42,7 @@ public class App {
                 .filter( s -> !s.contains("m2"))
                 .filter( s -> !s.contains("console"))
                 .filter( s -> !s.contains("project"))
-                //kiew-b
+                //drools-wb
                 .filter( s -> !s.contains("kie-wb-common-datasource-mgmt"))
                 .filter( s -> !s.contains("stunner"))
                 .filter( s -> !s.contains("ala"))
